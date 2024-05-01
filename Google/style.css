@@ -1,0 +1,36 @@
+.myHtmlStyle{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ralph{
+    border-radius: 20px;
+}
+
+
+
+.goole{
+    display: flex;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.mainsection{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    justify-content: center;
+}

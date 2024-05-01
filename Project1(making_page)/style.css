@@ -1,0 +1,115 @@
+main{
+    display: flex;
+    justify-content: center;
+    color: rgb(253, 255, 255);
+    padding: 0px;
+    height: 1000px;
+    background-color: rgba(7, 2, 2, 0.3);
+}
+
+.mainsection{
+    padding: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons_set{
+    display: flex;
+    justify-content: space-between;
+    border-width: 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 28ch;
+}
+
+.password{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    margin: 4px;
+}
+
+input{
+    accent-color: white;
+}
+
+body{
+    background-image: url(./picture/background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.inputs input {
+    border-radius: 20px;
+    border-width: 0;
+    height: 40px;
+    margin: 4px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white; 
+    padding: 0px; 
+}
+
+.facebook{ 
+    background-color: rgb(238, 243, 244); 
+    border-width: 0; 
+    border-radius: 2px; 
+    width: 137px;
+    height: 30px; 
+    font-size: small;
+}
+
+.twitter{
+    background-color: rgb(238, 243, 244); 
+    border-width: 0; 
+    border-radius: 2px; 
+    width: 137px; 
+    height: 30px; 
+    font-size: small;
+}
+
+.SIGN_IN{
+    background-color: rgb(251, 250, 253); 
+    border-width: 0; 
+    border-radius: 20px; 
+    height: 40px; 
+    margin: 4px; 
+    opacity: 0.8;
+}
+
+.title1{
+    text-align: center; 
+    font-size: x-large; 
+    font-weight: 400;
+}
+
+.title2{
+    text-align: center; 
+    font-size: x-large; 
+    font-weight: 200;
+}
+
+.Or_Sign_in_With{
+    text-align: center; 
+    font-size: small;
+}
+
+.Forgot_Password{
+    font-size: smaller; 
+    opacity: 0.9;
+}
+
+.Remember_Me{
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    font-size: smaller;
+}
+
