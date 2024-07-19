@@ -1,0 +1,260 @@
+.body1_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(236, 236, 239);
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: auto;
+}
+
+.service_name{
+    font-size: 70px;
+    margin-left: 70px;
+    
+}
+
+.sign_up button {
+    /*background-color: rgb(42, 70, 114);*/
+    background-color: navy;
+    border: none;
+    border-radius: 80px;
+    color: white; 
+    font-size: medium; 
+    padding: 20px 30px;
+}
+
+.sign_up{
+    display: flex;
+    gap: 10px;
+}
+
+.team_name{
+    font-size: 40px;
+}
+
+.first_time{
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.question{
+    font-size: larger;
+}
+
+
+
+
+.body1_main{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(240, 242, 245);
+    border-bottom: 1px solid rgb(239, 240, 245);
+    width: auto;
+}
+
+.body1{
+    margin: 0;
+    font-family: 'NanumSquareNeo-Variable', sans-serif;
+}
+
+.body1_mainsection{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 90px 80px;
+}
+
+.body1_mainsection img{
+    width: 20cm;
+    height: 10.5cm;
+    margin: 0;
+    max-width: 100%;
+    padding: 14.5px 0px;
+}
+
+.introduce{
+    font-size: 36.3px;
+    margin: 0;
+    padding: 0;
+}
+
+.body1_aside{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+
+
+.body1_asidesection{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 244, 247);
+    padding: 140px 100px;
+    flex-grow: 1;
+    width: auto;
+}
+
+.title{    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.body1_inputs{
+    display: flex;
+    flex-direction: column;
+    width: auto
+
+}
+
+.body1_inputs input {
+    border-radius: 20px;
+    border-width: 0px;
+    height: 40px;
+    margin: 4px;
+    background-color: rgba(255, 255, 255, 0.6); 
+    color: rgb(4, 4, 4); 
+    padding: 0px; 
+    
+}
+
+.log_in{
+    background-color: rgb(251, 250, 253); 
+    border-width: 0;
+    border-radius: 20px; 
+    height: 40px; 
+    margin: 4px;
+}
+
+.find_password{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    margin: 10px;
+}
+
+.log_in2{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.other_login{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.body1_buttons{
+    display: flex;
+    flex-direction: row;
+    border-width: 0;
+    justify-content: space-between;
+}
+
+.body1_buttons button{
+    font-size: medium; 
+    padding: 0px 35px;
+    background-color: rgb(251, 250, 253); 
+    border-width: 0; 
+    border-radius: 5px; 
+    height: 40px; 
+    margin: 3px;
+
+}
+
+
+
+.body1_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-top: 2px solid rgb(55, 62, 103);
+    width: auto;
+}
+
+.body1_mainsection2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: rgb(33, 56, 94);*/
+    background-color: navy;
+    color: white;
+}
+
+.body1_asidesection2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(232, 232, 241);
+}
+
+.body1_logo{
+    flex-grow: 1;
+    font-size: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.body1_text{
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.body1_aside_buttons3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.body1_aside_buttons3 button {
+    /*background-color: rgb(42, 70, 114);*/
+    background-color: navy;
+    border: none;
+    border-radius: 30px;
+    color: white; 
+    font-size: medium; 
+    padding: 20px 35px;
+    margin-right: 22.5px;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.team_name,
+.question,
+.sign_up2,
+.introduce,
+.title,
+.find_password,
+.log_in,
+.log_in2,
+.other_login,
+.body1_buttons button,
+.body1_aside_buttons3 button {
+    font-family: 'NanumSquareNeo-Variable', sans-serif;
+}
